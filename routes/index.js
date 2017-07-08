@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
         }
         console.log(data);
     });
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Door Control' });
 });
 
 module.exports = router;
