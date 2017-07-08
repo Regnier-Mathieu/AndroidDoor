@@ -1,0 +1,29 @@
+{
+  "name": "androiddoor",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "express-session": "^1.15.3",
+    "moment": "^2.18.1",
+    "morgan": "~1.8.1",
+    "nodemon": "^1.11.0",
+    "serve-favicon": "~2.4.2"
+  },
+  "description": "garage door control",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Regnier-Mathieu/AndroidDoor.git"
+  },
+  "author": "REGNIER Mathieu",
+  "license": "ISC"
+}
